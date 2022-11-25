@@ -9,12 +9,13 @@ module.exports = {
     "./app.vue"
   ],
   theme: {
-    colors: {
+
+    extend: { 
+      colors: {
       'primary' : {
         DEFAULT : '#E9500E'
       }
     },
-    extend: {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         
